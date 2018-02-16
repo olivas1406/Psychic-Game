@@ -4,7 +4,7 @@ var choices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", 
 
 var wins = 0;                                                             // var holds the number of wins
 var losses = 0;                                                           // var holds the number of losses
-var gLeft = 12;                                                           // var holds the number of guesses left
+var gLeft = 9;                                                            // var holds the number of guesses left
 var uGuess = [];                                                          // var displays the letters already guessed
 var keyPick = "";                                                         // holds the random letter chosen
 
@@ -37,7 +37,7 @@ document.onkeyup = function(event) {                                      // sta
 
     if (gLeft == 1) {                                                     // If Guesses Left = 1, you lose [gLeft is decremented below this line, has to be set to 1 here]
       losses++;                                                           // Increment var losses by 1
-      gLeft = 12;                                                         // Reset Gueses Left to 12
+      gLeft = 9;                                                          // Reset Gueses Left to 9
       uGuess = [];                                                        // Reset Letters Guessed blank
       postLoss();                                                         // Display new Losses value
       postgLeft();                                                        // Display new Guesses Left value
@@ -46,7 +46,7 @@ document.onkeyup = function(event) {                                      // sta
 
     } else if (currentPick == keyPick) {                                  // If the keyboard input matches the randomly selected letter, do this
       wins++;                                                             // Increment wins by 1
-      gLeft = 12;                                                         // Reset Gueses Left to 12
+      gLeft = 9;                                                          // Reset Gueses Left to 9
       uGuess = [];                                                        // Reset Letters Guessed blank
       currentPick = choices[Math.floor(Math.random() * choices.length)];  // Choose a new random letter from the choices array
       postgLeft();                                                        // Display new Guesses Left value
