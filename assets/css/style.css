@@ -1,15 +1,25 @@
+
+body {
+    background-image: url("../images/bg.jpg");
+    color: white;
+}
+
 h1 {
     font-size: 32px;
     padding: 20px;
     font-weight: 700;
+    margin-left: 4%;
 }
 
 p {
     padding-left: 10px;
+    margin-left: 4%;
+    margin-bottom: 10px;
 }
 
 div {
     padding: 10px;
+    margin-left: 4%;
 }
 
 
