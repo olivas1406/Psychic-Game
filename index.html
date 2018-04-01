@@ -5,18 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
 </head>
 <body>
-    <h1>~ The Psychic Game ~</h1>
-        <p>Type a letter to guess what I'm thinking</p>
-            <div id="win">Wins: </div>
-            <div id="loss">Losses</div>
-            <div id="gLeft">Guesses Left: </div>
-            <div id="uGuess">Your Guesses so far: </div>
+    <div class="containter-fluid">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="titleMe">The Psychic Game</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="textMe">Type a letter to guess what I'm thinking</p> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8">
+            <div class="win">Wins: 
+            </div><br>
+            <div class="loss t1">Losses
+            </div><br>
+            <div class="gLeft t1">Guesses Left: 
+            </div><br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <div class="uGuess">Your Guesses so far: 
+            </div>
+        </div>
+    </div>
+    </div>
 <script src="./assets/javascript/game.js"></script>
 </body> 
 </html>
-
-
