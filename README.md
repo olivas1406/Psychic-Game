@@ -11,5 +11,3 @@ This page was created and is maintained by Daniel Olivas, to get help:
 president@computersoluciones.us
 
 https://www.linkedin.com/in/daniel-olivas/
-
-[logo]: https://olivas1406.github.io/Psychic-Game/
