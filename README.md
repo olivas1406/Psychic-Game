@@ -1,4 +1,4 @@
-<center># Psychic-Game</center>
+# Psychic-Game
 ***
 
 This is a simple letter-guessing game, press a key to try and guess a randomly selected letter of the alphabet.  
