@@ -12,4 +12,4 @@ president@computersoluciones.us
 
 https://www.linkedin.com/in/daniel-olivas/
 
-[logo]: ./assets/images/bg.jpg
+[logo]: https://olivas1406.github.io/Psychic-Game/
